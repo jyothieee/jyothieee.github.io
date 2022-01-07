@@ -1,12 +1,35 @@
-
-
-
 body{
     font-family: 'Poppins', sans-serif;
 }
-# h1{
+h1{
     font-size: 50px;
-    border-left: 6px solid orangered;
-    background-color: orangered;
-    
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 5px;
+    padding-left: 10%;
+}
+.Explore-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-bottom-right-radius:5px;
+    color: white;
+    font-weight: 700 ;
+}
+.style{
+    color:orange;
+}
+.mission-2022{
+    display: flex;
+    margin-bottom: 100%;
+}
+
+#img1 {
+    height: 220px;
+    width: 220px;
 }
